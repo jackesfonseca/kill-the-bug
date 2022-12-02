@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mata Mosquito</title>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/script.js"></script>
+    </head>
+    <body onresize="fixWindowSize()">
+        <div class="panel">
+            <div class="life">
+                <img src="img/coracao_cheio.png" id="l1">
+                <img src="img/coracao_cheio.png" id="l2">
+                <img src="img/coracao_cheio.png" id="l3">
+            </div>
+            <div class="stopwatch">
+                Tempo Restante <span id="myStopwatch"></span>
+            </div>
+        </div>
+        <script>
+            document.getElementById('myStopwatch').innerHTML = time;
+            var createBug = setInterval(function(){randomPos()}, speed);
+        </script>
+    </body>
+</html>

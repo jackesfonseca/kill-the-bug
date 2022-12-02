@@ -1,0 +1,62 @@
+html
+{
+    cursor: url('../img/mata_mosca.png') 30 30, auto;
+}
+
+body
+{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.bug01
+{
+    width:40px;
+    height:40px;
+}
+
+.bug02
+{
+    width:30px;
+    height:30px;
+}
+
+.bug03
+{
+    width:20px;
+    height:20px;
+}
+
+.sideA
+{
+    transform: scaleX(1);
+}
+
+.sideB
+{
+    transform: scaleX(-1);
+}
+
+.panel
+{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px; 
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.life
+{
+    float:left;
+}
+
+.stopwatch
+{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
